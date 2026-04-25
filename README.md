@@ -7,13 +7,20 @@ This study evaluates the effectiveness of Deep Learning in distinguishing betwee
 ## Technical Implementation
 
 ### **Model Architecture: ResNet50**
-We utilized **ResNet50**, a Convolutional Neural Network (CNN) featuring a **Residual Learning architecture (Skip Connections)**.
-**Feature Extraction**: The model captures intricate deep features at the pixel level to distinguish subtle synthetic artifacts.
-**Transfer Learning**: A pre-trained ResNet50 was fine-tuned specifically on a hybrid dataset to specialize in detecting Gemini and Seedream signatures.
+The core detection engine utilizes **ResNet50**, a Convolutional Neural Network (CNN) designed for high-performance image classification.
+
+**Residual Learning**: It employs "Skip Connections" to capture intricate deep features at the pixel level without performance degradation.
+
+**Transfer Learning**: We leveraged a pre-trained ResNet50 model and fine-tuned it specifically on our hybrid dataset to specialize in detecting subtle AI artifacts.
 
 ### **Data Strategy**
-**Hybrid Dataset**: A total of 2,000 images, consisting of 50% existed Kaggle data (Cash Bowman) and 50% custom-generated images.
-**Training Process**: The model was trained over 6 epochs using **Fastai** and **PyTorch**, achieving stable convergence.
+**Hybrid Dataset**: The model was trained on 2,000 images, consisting of a 50/50 split between existing Kaggle data (Cash Bowman) and our custom-generated dataset.
+**Training Process**: The model was fine-tuned over **6 epochs** using **Fastai** and **PyTorch** to reach stable convergence.
+
+### **Development Workflow: Vibe Coding**
+This project’s technical pipeline was developed through an **AI-assisted development workflow**:
+* **Vibe Coding Implementation**: The computational logic, including data allocation and the training pipeline, was architected and executed via **AI Coding Agent**.
+* **Human-in-the-loop**: While the code was generated through AI, the strategic parameters—such as the **Data Strategy**, **Parameter Tuning** (6 epochs), and **Model Evaluation criteria**—were manually designed and directed.
 
 ---
 
