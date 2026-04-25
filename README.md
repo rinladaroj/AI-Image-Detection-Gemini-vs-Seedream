@@ -36,5 +36,5 @@ We utilized **ResNet50**, a Convolutional Neural Network (CNN) featuring a **Res
 ## Academic Context
 * **Institution:** Fudan University
 * **Course:** Intro to Computer Science (Fall 2026)
-* **Instructor:** **Dr. XU, Hui (徐輝)**
+* **Instructor**: Dr. XU, Hui (徐輝)
 * **Authors:** Rinlada Rojchnaphakul & Napakpabha Lertapirangsi
